@@ -9,6 +9,7 @@ import ItemDetails from "./components/ItemDetails/ItemDetails";
 import Scanner from "./components/Scanner/Scanner";
 import Login from "./components/Login/Login";
 import Header from "./components/Header/Header";
+import ItemProfile from "./components/ItemProfile/ItemProfile";
 import Footer from "./components/Footer/Footer";
 
 export default function App() {
@@ -32,11 +33,11 @@ export default function App() {
           exact
           render={(routerProps) => <Scanner {...routerProps} />}
         />
-        {/* <Route
-          path="/scan/details"
+        <Route
+          path="/items/:id"
           exact
-          render={(routerProps) => <ItemDetails {...routerProps} />}
-        /> */}
+          render={(routerProps) => <ItemProfile {...routerProps} />}
+        />
         <Route
           path="/photo"
           exact
