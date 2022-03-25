@@ -11,7 +11,7 @@ export default function LabelInfo({ scan }) {
   return (
     <>
       <div className="label-info">
-        <h1 className="label-info__title">Your care label instructions</h1>
+        <h1 className="label-info__title">Care label instructions</h1>
         <div className="label-info__photo-wrapper">
           <img className="photo" src={scan} alt="Label Care" />
         </div>

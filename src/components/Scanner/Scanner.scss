@@ -1,1 +1,16 @@
 @use "../../styles/index" as *;
+
+.scan-title {
+  font-family: Lora;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.scan-camera {
+  height: 100%;
+}
+
+.scan-button-container {
+  height: auto;
+  width: 100%;
+}
