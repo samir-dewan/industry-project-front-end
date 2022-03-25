@@ -14,7 +14,7 @@ import Footer from "./components/Footer/Footer";
 export default function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Switch>
         <Redirect from="/" exact to="/home" />
         <Route
