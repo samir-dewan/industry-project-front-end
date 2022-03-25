@@ -4,6 +4,7 @@
   // background-color: lightgoldenrodyellow;
 
   &__title {
+    font-family: Lora;
   }
 
   &__photo-wrapper {
@@ -29,7 +30,7 @@
   }
 
   .washing-info__button {
-    background-color: #66c5fb;
+    background-color: $color-blue;
     text-decoration: none;
     color: white;
     padding: 0.5rem 1.5rem;
