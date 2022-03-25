@@ -1,4 +1,3 @@
-
 //IMPORT MODULES
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
@@ -15,7 +14,7 @@ import Footer from "./components/Footer/Footer";
 export default function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Switch>
         <Redirect from="/" exact to="/home" />
         <Route
@@ -32,19 +31,19 @@ export default function App() {
           path="/scan"
           exact
           render={(routerProps) => <Scanner {...routerProps} />}
-          />
-        <Route
+        />
+        {/* <Route
           path="/scan/details"
           exact
           render={(routerProps) => <ItemDetails {...routerProps} />}
-          />
+        /> */}
         <Route
           path="/photo"
           exact
           render={(routerProps) => <Camera {...routerProps} />}
-          />
+        />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
