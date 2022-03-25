@@ -1,0 +1,39 @@
+@use "../../styles/index" as *;
+
+.label-info {
+  // background-color: lightgoldenrodyellow;
+
+  &__title {
+  }
+
+  &__photo-wrapper {
+    .photo {
+    }
+  }
+
+  &__card {
+    display: flex;
+    .icon-wrapper {
+      .icon {
+      }
+    }
+
+    .text-wrapper {
+      .title {
+        text-transform: uppercase;
+      }
+
+      .description {
+      }
+    }
+  }
+
+  .washing-info__button {
+    background-color: #66c5fb;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    width: 100%;
+  }
+}
