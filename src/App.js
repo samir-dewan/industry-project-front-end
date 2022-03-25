@@ -1,10 +1,10 @@
 //IMPORT MODULES
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
-import Photo from "./components/Photo/Photo";
 
 //IMPORT COMPONENTS
 import BasketPage from "./components/BasketPage/BasketPage";
+import Photo from "./components/Photo/Photo";
 import ItemDetails from "./components/ItemDetails/ItemDetails";
 import Scanner from "./components/Scanner/Scanner";
 import Login from "./components/Login/Login";
@@ -41,6 +41,11 @@ export default function App() {
           path="/photo"
           exact
           render={(routerProps) => <Photo {...routerProps} />}
+        />
+        <Route
+          path="/item-details"
+          exact
+          render={(routerProps) => <ItemDetails {...routerProps} />}
         />
       </Switch>
       {/* <Footer /> */}
