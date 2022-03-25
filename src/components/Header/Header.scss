@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+
+  &__logo {
+    width: 97px;
+  }
+
+  &__icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__icon {
+    width: 30px;
+  }
+}
